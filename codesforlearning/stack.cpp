@@ -23,8 +23,8 @@ class Stack{
     }
     int Pop(){
         if (top==-1)
-        {cout<<"staxk underflow" <<endl;
-        return NULL;}
+        {cout<<"stack underflow" <<endl;
+        return -1000;}
         // cout<<arr[top]<<endl;
         top-=1;
         return arr[top+1];
